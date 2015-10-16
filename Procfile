@@ -1,1 +1,1 @@
-web: grunt build && node index.html
+web: node web.js
