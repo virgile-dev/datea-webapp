@@ -12,7 +12,7 @@
 	"MORE" : "ver más",
 	"TRENDING" : "Tendencias",
 	"DATERO_LABEL" : "dater@",
-	
+
 	"MENU_TOP" : {
 		"SEARCH" : "Buscar",
 		"CAMPAIGNS" : "Initiatives",
@@ -67,7 +67,7 @@
 		"PASS_DESC" : "Mínimo 6 letras y mínimo 1 número",
 		"REPEAT_PASS" : "Repetir contraseña",
 	},
-	
+
 	"LANDING_PAGE" : {
 		"SUBTITLE" : "Todos Somos Dateros",
 		"SLOGAN" : "Comparte y visualiza datos útiles con tu comunidad para lograr cambios",
@@ -181,7 +181,7 @@
 		"DELETE" : "borrar",
 		"SUCCESS_MSG" : "Tu dateo se ha creado existosamente.",
 		"GOTO_DATEO" : "Ver dateo",
-		"CLOSE" : "Cerrar" 
+		"CLOSE" : "Cerrar"
 	},
 
 	"DATEO" : {
