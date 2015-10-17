@@ -1,0 +1,11 @@
+{
+  "name": "Datea",
+  "description": "Comparte y visualiza datos útiles con tu comunidad.",
+  "keywords": [
+    "datea"
+  ],
+  "author": "HackathonNanterre2K15",
+  "website": "http://datea.pe",
+  "repository": "https://github.com/OpenSourcePolitics/datea-webapp",
+  "logo": "http://datea.pe/static/images/logo-large.png"
+}
