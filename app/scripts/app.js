@@ -44,7 +44,11 @@ angular.module( 'dateaWebApp'
 	    prefix: 'locales/locale-',
 	    suffix: '.json'
 	});
+<<<<<<< HEAD
 	$translateProvider.preferredLanguage('fr');
+=======
+	$translateProvider.preferredLanguage('es');
+>>>>>>> OpenSourcePolitics/master
 
 	console.log('navigator', navigator);
 
