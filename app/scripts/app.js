@@ -44,8 +44,8 @@ angular.module( 'dateaWebApp'
 	    prefix: 'locales/locale-',
 	    suffix: '.json'
 	});
-	$translateProvider.preferredLanguage('es');
-	
+	$translateProvider.preferredLanguage('fr');
+
 	console.log('navigator', navigator);
 
 	$httpProvider.defaults.useXDomain = true;
@@ -128,34 +128,34 @@ angular.module( 'dateaWebApp'
 			, reloadOnSearch: false
 		} )
 	.when( '/404'
-		, { templateUrl: 'views/404.html'} 
+		, { templateUrl: 'views/404.html'}
 	)
 	.when( '/buscar'
 		, { templateUrl: 'views/dateo-search.html'
-			, controller : 'DateoSearchCtrl' 
+			, controller : 'DateoSearchCtrl'
 			, reloadOnSearch: false
 	} )
 	.when( '/buscar/:search'
 		, { templateUrl: 'views/dateo-search.html'
-			, controller : 'DateoSearchCtrl' 
+			, controller : 'DateoSearchCtrl'
 			, reloadOnSearch: false
 	} )
 		/* COMPATIBILITY WITH OLD URLS */
 	.when( '/dateos/:dateoId'
 		, { templateUrl: 'views/redirect.html'
-			, controller : 'RedirectToDateoCtrl' 
+			, controller : 'RedirectToDateoCtrl'
 		} )
 	.when( '/mapeo/:campaignId/dateos/:dateoId'
 		, { templateUrl: 'views/redirect.html'
-			, controller : 'RedirectToDateoCtrl' 
+			, controller : 'RedirectToDateoCtrl'
 		} )
 	.when( '/mapeo/:campaignId/dateos'
 		, { templateUrl: 'views/redirect.html'
-			, controller : 'RedirectToCampaignCtrl' 
+			, controller : 'RedirectToCampaignCtrl'
 		} )
 	.when( '/mapeo/:campaignId'
 		, { templateUrl: 'views/redirect.html'
-			, controller : 'RedirectToCampaignCtrl' 
+			, controller : 'RedirectToCampaignCtrl'
 		} )
 
 	.when('/acerca/terminos'
